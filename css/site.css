@@ -12,6 +12,17 @@ footer{
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
+    background-color: darkolivegreen;
+}
+
+a{
+    color: green;
+
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
 }
 .bordered-image {
     border: solid 1px #4444;
@@ -26,12 +37,24 @@ body{
     margin: 20px 0 ;
     padding: 5px;
 }
+#results{
+    padding: 2px;
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+
+}
 .simple-form{
-    padding:5px;
+    padding: 2px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .simple-form  label {
     font-weight: bold;
+    width: 300px;
+   
 }
 
 .simple-form input[type=text], 
@@ -47,4 +70,29 @@ body{
     border-radius: 15px;
     padding:3px;
     margin-top:5px;
+}
+
+.container {
+    width: 989px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+}
+
+header nav{
+    float: right;
+    margin-right: 5px;
+}
+
+header nav li {
+    display: inline;
+}
+
+.result {
+    margin: 5px;
+    border: 1px solid #888;
+}
+
+.result .title {
+    font-weight: bold;
 }
